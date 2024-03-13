@@ -21,5 +21,4 @@ describe("Message class", function() {
         let message = new Message('Test message with two commands', commands);
         expect(message.commands).toEqual(commands);
     })
-
 });
